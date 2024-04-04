@@ -1,0 +1,33 @@
+<form>
+  <div class="form-row">
+  <div class="col-md-4 mb-3">
+  <label>Product Title</label>
+  <input type="text" class="form-control" [(ngModel)]="product.title" name="title">
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="col-md-4 mb-3">
+  <label>Product Description</label>
+  <input type="textarea" class="form-control" [(ngModel)]="product.description" name="description">
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="col-md-4 mb-3">
+  <label>Product Price</label>
+  <input type="number" class="form-control" [(ngModel)]="product.price" name="price">
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="col-md-4 mb-3">
+  <label>Product Company</label>
+  <input type="text" class="form-control" [(ngModel)]="product.company" name="company">
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="col-md-4 mb-3">
+  <label>Product Company</label>
+  <input type="text" class="form-control" [(ngModel)]="product.image" name="img">
+  </div>
+  </div>
+  <button class="btn btn-primary" type="submit" (click)="addProduct()">Add Product</button>
+  </form>

@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Cubes",
+      "description": "This is a good Cube",
+      "price": 15,
+      "company": "UTBM",
+      "image": "./assets/img/1.png",
+      "likes": 0,
+      "quantite": 0
+    },
+    {
+      "id": "2",
+      "title": "Cheese",
+      "description": "This is a good Cheese",
+      "price": 10,
+      "company": "CROUS",
+      "image": "./assets/img/2.png",
+      "likes": 0,
+      "quantite": 0
+    },
+    {
+      "id": "3",
+      "title": "MyTitle",
+      "description": "MyDescription",
+      "price": 0,
+      "company": "UBFC",
+      "image": "./assets/img/1.png",
+      "likes": 0,
+      "quantite": 0
+    },
+    {
+      "id": "4",
+      "title": "MyTitle",
+      "description": "MyDescription",
+      "price": 0,
+      "company": "MyCompany",
+      "image": "./assets/img/4.png",
+      "likes": 0,
+      "quantite": 0
+    },
+    {
+      "id": "5",
+      "title": "MyTitle",
+      "description": "MyDescription",
+      "price": 0,
+      "company": "Dernier company",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Dessiner_une_%C3%A9toile_-_apercu.png",
+      "likes": 0,
+      "quantite": 0
+    }
+  ],
+  "companies": [
+    {
+      "id": "0",
+      "name": "ALL"
+    },
+    {
+      "id": "1",
+      "name": "UTBM"
+    },
+    {
+      "id": "2",
+      "name": "CROUS"
+    },
+    {
+      "id": "3",
+      "name": "UBFC"
+    },
+    {
+      "id": "4",
+      "name": "MyCompany"
+    },
+    {
+      "id": "5",
+      "name": "Dernier company"
+    }
+  ]
+}

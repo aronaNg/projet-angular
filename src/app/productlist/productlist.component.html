@@ -1,0 +1,23 @@
+<!-- <div class="container">
+    <div class="row row-cols-2">
+        <app-product *ngFor="let productVar of ProductArray; let i =index" [product]="productVar" [prd_index]="i+1"></app-product>
+    </div>
+</div> -->
+
+<div class="row">
+  <div class = "col-2">
+  <div class="btn-group-vertical">
+  <button type="button" class="btn btn-outline-primary" *ngFor="let c of companies" (click)='FilterbyComp(c)'>{{c.name}}</button>
+  </div>
+  </div>
+  <div class = "col">
+  <div class="row">
+  <ng-container *ngFor="let productVar of ProductArray; let i = index ">
+  <div class = "col-4">
+  <app-product [product]="productVar" [prd_index]="i"></app-product>
+  </div>
+  </ng-container>
+  </div>
+  </div>
+  </div>
+
