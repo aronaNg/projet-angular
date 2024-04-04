@@ -32,21 +32,11 @@
     },
     {
       "id": "4",
-      "title": "MyTitle",
-      "description": "MyDescription",
-      "price": 0,
-      "company": "MyCompany",
-      "image": "./assets/img/4.png",
-      "likes": 0,
-      "quantite": 0
-    },
-    {
-      "id": "5",
-      "title": "MyTitle",
-      "description": "MyDescription",
-      "price": 0,
-      "company": "Dernier company",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Dessiner_une_%C3%A9toile_-_apercu.png",
+      "title": "Arona",
+      "description": "MyDescription Arona",
+      "price": "5",
+      "company": "MyCompany Arona",
+      "image": "./assets/img/2.png",
       "likes": 0,
       "quantite": 0
     }
@@ -70,11 +60,7 @@
     },
     {
       "id": "4",
-      "name": "MyCompany"
-    },
-    {
-      "id": "5",
-      "name": "Dernier company"
+      "name": "MyCompany Arona"
     }
   ]
 }
